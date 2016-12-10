@@ -11,7 +11,7 @@ router.post('/', function(req, res, next) {
 	var message = "name: " + name + "/nemail: " + email + "/n" + message;
 	var email = {
 	   text:    message,
-	   from:    codervinod.com + "<" + me@codervinod.com + ">",
+	   from:    codervinod.com + "<me@codervinod.com>",
 	   to:      "Vinod Gupta <codervinod@gmail.com>",
 	   subject: subject
 	};
