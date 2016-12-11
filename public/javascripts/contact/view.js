@@ -7,7 +7,7 @@ var AppView = Backbone.View.extend({
   },
   // $el - it's a cached jQuery object (el), in which you can use jQuery functions to push content. Like the Hello TutorialsPoint in this case.
   render: function(){
-    this.$el.html("Hello TutorialsPoint!!!");
+    this.$el.html("");
   }
 });
 
