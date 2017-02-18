@@ -1,6 +1,6 @@
-var AppView = Backbone.View.extend({
+var SubmitAckView = Backbone.View.extend({
   // el - stands for element. Every view has an element associated with HTML content, will be rendered.
-  el: '#view_container',
+  el: '#submit_ack_container',
   // It's the first function called when this view is instantiated.
   initialize: function(){
     this.render();
@@ -11,4 +11,4 @@ var AppView = Backbone.View.extend({
   }
 });
 
-var appView = new AppView();
+var submitAckView = new SubmitAckView();
